@@ -1,0 +1,136 @@
+@import url('./bootstrap.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --dark-blue: #011621;
+    --light-blue: #012536;
+    --green: #46D39A;
+}
+
+body {
+    background-color: var(--dark-blue);
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://landing-vendas.s3.amazonaws.com/bg-lines.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-blue {
+    color: var(--dark-blue);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.bg-header {
+    background-image: url("https://landing-vendas.s3.amazonaws.com/bg-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-iphone {
+    background-image: url("https://landing-vendas.s3.amazonaws.com/iphone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-city {
+    background-image: url("https://landing-vendas.s3.amazonaws.com/city.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-blue{
+    background-color: var(--light-blue);
+}
+
+.bg-green{
+    background-color: var(--green);
+}
+
+.bg-onevalue {
+    background-image: url("https://landing-vendas.s3.amazonaws.com/chart.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn-green{
+    background-color: var(--green);
+    box-shadow: 1px 1px 5px 0 rgba(255, 255, 255, 0.8),
+                -1px -1px 5px 0 rgba(255, 255, 255, 0.8);
+}
+
+.rounded-st-be {
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.w-390 {
+    width: 390px;
+}
+
+.w-370 {
+    width: 390px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.border-green {
+    border: 4px solid var(--green);
+}
+
+.border-shadow-green {
+    width: 100%;
+    height: 4px;
+    background-color: var(--green);
+    box-shadow: 5px 5px 20px 2px var(--green),
+                -5px -5px 20px 2px var(--green);
+}
+
+.pill-bottom {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.pill-top {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.bg-ny {
+    background-image: url("https://landing-vendas.s3.amazonaws.com/ny.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-30 {
+    font-size: 90px;
+}
+
+
+.btn-faq:hover, .btn-faq:focus {
+    color: var(--green) !important;
+}
+
+.btn-faq:focus > .open {
+    display: flex !important;
+}
+
+.btn-faq:focus > .closed {
+    display: none !important;
+}
+
+.btn-faq:focus + .text-list {
+    display: block !important;
+}
+
+
+@media  (max-width: 992px) {
+    .mobile { display: none; }
+}
