@@ -24,16 +24,14 @@ function display(module) {
     });
 }
 
-function showFaq() {
+function showFaq(btn) {
     let icon = event.srcElement.textContent
 
-    console.log(icon)
-
     if(icon == "+"){
-        event.path[2].childNodes[3].classList.remove('d-none')
+        document.getElementById(`btn-faq-${btn}`).classList.remove('d-none')
         event.srcElement.innerHTML = "-"
     }else{
-        event.path[2].childNodes[3].classList.add('d-none')
+        document.getElementById(`btn-faq-${btn}`).classList.add('d-none')
         event.srcElement.innerHTML = "+"
     }
 }
