@@ -27,6 +27,8 @@ function display(module) {
 function showFaq() {
     let icon = event.srcElement.textContent
 
+    console.log(icon)
+
     if(icon == "+"){
         event.path[2].childNodes[3].classList.remove('d-none')
         event.srcElement.innerHTML = "-"

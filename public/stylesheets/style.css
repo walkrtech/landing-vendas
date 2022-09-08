@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+ul {
+   list-style: none; 
+}
 
 :root {
     --dark-blue: #011621;
@@ -161,6 +164,10 @@ body {
 
 .mw-300 {
     max-width: 400px !important;
+}
+
+.mt-m50{
+    margin-top: -50px !important;
 }
 
 @keyframes invisible {
