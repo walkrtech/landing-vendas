@@ -199,4 +199,21 @@ body {
     .satisfaction {
         display: none;
     }
+
+    .bg-iphone {
+        margin-top: -130px !important;
+    }
+
+    .onevalue2 {
+        margin-top: -20px !important;
+    }
+
+    .faq-title {
+        font-size: 20px !important;
+    }
+
+    .text-list > span {
+        font-size: 16px !important;
+    }
+
 }
