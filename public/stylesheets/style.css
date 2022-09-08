@@ -172,6 +172,10 @@ body {
     margin-top: -50px !important;
 }
 
+.mw-600 {
+    max-width: 600px !important;
+}
+
 @keyframes invisible {
     from {
         opacity: 0;
