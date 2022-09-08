@@ -137,18 +137,6 @@ body {
     color: var(--green) !important;
 }
 
-.btn-faq:focus > .open {
-    display: flex !important;
-}
-
-.btn-faq:focus > .closed {
-    display: none !important;
-}
-
-.btn-faq:focus + .text-list {
-    display: block !important;
-}
-
 .mobile { display: none !important; }
 
 .mobile-img {
@@ -169,6 +157,10 @@ body {
 .reveal.slidein {
     transform: translateX(0);
     opacity: 1;
+}
+
+.mw-300 {
+    max-width: 400px !important;
 }
 
 @keyframes invisible {
