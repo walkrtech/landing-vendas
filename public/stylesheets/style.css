@@ -180,4 +180,7 @@ body {
     .title-module {
         font-size: 25px !important;
     }
+    .satisfaction {
+        display: none;
+    }
 }

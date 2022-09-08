@@ -23,3 +23,15 @@ function display(module) {
         }
     });
 }
+
+function showFaq() {
+    let icon = event.srcElement.textContent
+
+    if(icon == "+"){
+        event.path[2].childNodes[3].classList.remove('d-none')
+        event.srcElement.innerHTML = "-"
+    }else{
+        event.path[2].childNodes[3].classList.add('d-none')
+        event.srcElement.innerHTML = "+"
+    }
+}
