@@ -48,6 +48,7 @@ body {
     background-image: url("https://landing-vendas.s3.amazonaws.com/bg-header.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     animation: invisible 1s;
 }
 
