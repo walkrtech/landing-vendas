@@ -205,6 +205,9 @@ body {
     .title-module {
         font-size: 18px !important;
     }
+    .resumo-pratico {
+        font-size: 26px !important;
+    }
     .satisfaction {
         display: none;
     }
