@@ -16,9 +16,9 @@ function display(module) {
     document.querySelectorAll(`.module-${module}`).forEach(element => {
         if(element.classList.contains("mobile")){
             element.classList.remove("mobile")
-            document.getElementById(`arrow-${module}`).setAttribute("src", "https://landing-vendas.s3.amazonaws.com/icons/arrow-right.svg")
+            document.getElementById(`arrow-${module}`).setAttribute("src", "https://landing-vendas.s3.amazonaws.com/icons/simple-arrow-down.svg")
         }else {
-            document.getElementById(`arrow-${module}`).setAttribute("src", "https://landing-vendas.s3.amazonaws.com/icons/arrow-down.svg")
+            document.getElementById(`arrow-${module}`).setAttribute("src", "https://landing-vendas.s3.amazonaws.com/icons/simple-arrow-up.svg")
             element.classList.add("mobile")
         }
     });
