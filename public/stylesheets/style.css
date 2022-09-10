@@ -227,5 +227,10 @@ body {
     .text-list > span {
         font-size: 16px !important;
     }
-
+    ul{
+        padding: 0 !important;
+    }
+    .faq {
+        text-align: start !important;
+    }
 }
