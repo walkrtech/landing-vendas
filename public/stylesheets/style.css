@@ -234,10 +234,6 @@ body {
         justify-content: center;
     }
 
-    .title-module {
-        font-size: 18px !important;
-    }
-
     .resumo-pratico {
         font-size: 26px !important;
     }
@@ -248,6 +244,10 @@ body {
 
     .bg-iphone {
         margin-top: -130px !important;
+    }
+
+    .module {
+        max-height: 80px;
     }
 
     .onevalue2 {
