@@ -185,6 +185,10 @@ body {
     cursor: pointer;
 }
 
+.faq-res {
+    animation: .8s invisible ease;
+}
+
 @keyframes invisible {
     from {
         opacity: 0;
@@ -221,6 +225,10 @@ body {
     }
 
     .faq-title {
+        margin-left: 10px;
+    }
+
+    .faq-subtitle {
         font-size: 20px !important;
     }
 
